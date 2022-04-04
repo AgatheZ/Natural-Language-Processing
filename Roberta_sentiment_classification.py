@@ -508,7 +508,7 @@ num_epochs = 3
 lr = 1e-5
 
 # Train model
-trained8 = main(config, 
+trained = main(config, 
                 dropout_rate,
                 train_data_up_down3, # Use upsampled training data
                 val_data_preprocessed, # Use validation data without preprocessing
